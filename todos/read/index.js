@@ -10,6 +10,7 @@ exports.handler = async function read(req) {
   for await (let todo of pages) {
     todos.push(todo)
   }
+  todos.push(process.version)
 
   todos.sort((a, b) => a.created - b.created)
 
