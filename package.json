@@ -44,9 +44,12 @@
     "start": "npx sandbox"
   },
   "dependencies": {
-    "@architect/functions": "^4.0.0",
-    "@architect/sandbox": "^4.1.1",
+    "@architect/architect": "^9.5.4",
+    "@architect/functions": "^4.1.2",
     "@begin/data": "^3.0.0",
     "tiny-json-http": "^7.3.0"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^4.5.2"
   }
 }
