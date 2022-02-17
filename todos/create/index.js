@@ -2,6 +2,7 @@ let arc = require('@architect/functions')
 let data = require('@begin/data')
 
 exports.handler = async function create(req) {
+  console.log(process.version)
   let todo = arc.http.helpers.bodyParser(req)
   todo.created = Date.now()
   await data.set({
