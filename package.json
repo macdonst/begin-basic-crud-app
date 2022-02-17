@@ -28,6 +28,12 @@
           "method": "post",
           "src": "/todos/update"
         }
+      },
+      {
+        "/todos/esm": {
+          "method": "get",
+          "src": "/todos/esm"
+        }
       }
     ],
     "tables": [
